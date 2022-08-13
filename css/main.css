@@ -1,8 +1,59 @@
 :root {
     --Font: 'Josefin Sans', sans-serif;
+    --maincolor: #D79C43;
+    --secondarycolor: #AA3713;
+    --thirdcolor: #0199B1;
+    --fourthcolor: #EBC378;
+    --fifthcolor: black;
+    --sixthcolor: white;
+    
 }
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto; 
+    background-color: var(--fifthcolor);
+}
+
+h1{
+    color: var(--maincolor);
+}
+
+h2{
+    color: var(--secondarycolor);
+}
+ h3{
+    color: var(--thirdcolor);
+ }
+
+ h4{
+    color: var(--fourthcolor);
+ }
+
+ p{
+    color: var(--sixthcolor);
+ }
 
 .banner{
     height: 500px;
     background-color: black;
 }
+
+a:link {
+    background-color: var(--secondarycolor);
+    color: white;
+    border: 2px solid var(--maincolor);
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+a:hover{
+    background-color: var(--maincolor);
+    border-color: var(--secondarycolor);
+}
+
