@@ -1,0 +1,8 @@
+:root {
+    --Font: 'Josefin Sans', sans-serif;
+}
+
+.banner{
+    height: 500px;
+    background-color: black;
+}
