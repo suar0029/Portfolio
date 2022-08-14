@@ -44,6 +44,7 @@ body{
 
 h2{
     color: var(--secondarycolor);
+    text-align: center;
 }
  h3{
     color: var(--thirdcolor);
@@ -51,10 +52,16 @@ h2{
 
  h4{
     color: var(--fourthcolor);
+    text-align: center;
+    margin: 10px 0 10px 0;
  }
 
  p{
     color: var(--sixthcolor);
+ }
+
+ .about-me h4{
+    margin: 50px 0;
  }
 
 .banner{
@@ -82,5 +89,38 @@ a:hover{
     margin-top: 50px;
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
+  input[type=submit] {
+    width: 10%;
+    background-color: var(--maincolor);
+    color: var(--sixthcolor);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 500px;
+  }
+
+  input[type=submit]:hover {
+    background-color: var(--thirdcolor);
+  }
+
+  label{
+    color: var(--sixthcolor);
+  }
+
+  textarea{
+    resize: vertical;
+    width: 100%;
+  }
+  
 
