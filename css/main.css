@@ -9,6 +9,20 @@
     
 }
 
+.skip-link{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--thirdcolor);
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus{
+    top: 0;
+}
+
 html{
     box-sizing: border-box;
 }
@@ -18,8 +32,14 @@ body{
     background-color: var(--fifthcolor);
 }
 
-h1{
+.h1, h1{
+    font-size: 100px;
+    margin-bottom: 1rem;
     color: var(--maincolor);
+}
+
+.br p{
+    margin-bottom: 10rem;
 }
 
 h2{
@@ -38,7 +58,8 @@ h2{
  }
 
 .banner{
-    height: 500px;
+    justify-content: center;
+    height: 100px;
     background-color: black;
 }
 
@@ -56,4 +77,10 @@ a:hover{
     background-color: var(--maincolor);
     border-color: var(--secondarycolor);
 }
+
+.row{
+    margin-top: 50px;
+}
+
+
 

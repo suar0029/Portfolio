@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <title>Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,300&display=swap"
+    rel="stylesheet">
   <script src="https://kit.fontawesome.com/7660dec181.js" crossorigin="anonymous"></script>
   <link href="css/main.css" rel="stylesheet">
 </head>
+
 <body>
+
+  <a href="#maincontent" class="skip-link">Skip to main content</a>
 
   <div class="banner">
     <h1>Colomss</h1>
-    <p>Hey there, Welcome to my Portfolio!</p> 
+    <p>Hey there, Welcome to my Portfolio!</p>
   </div>
-    
+
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
-        <h3>About me</h3>
-        <p>Hey, I am Santiago Suarez an Audiovisual designer and you will see my portfolio website</p>
-        <p>Enjoy it!</p>
-        <a href="#about">punch here to learn about me</a>
+      <div class="col-md-4">
+        <!-- <div class="card"> -->
+          <h3 class="card-title">About me</h3>
+          <p class="card-text">Hey, I am Santiago Suarez an Audiovisual designer and you will see my portfolio website
+          </p>
+          <p class="card-text">Enjoy it!</p>
+          <a href="#about">punch here to learn about me</a>
+        <!-- </div> -->
+      </div>      
+        
+        <div class="col-md-4">
+          <!-- <div class="card"> -->
+            <h3 class="card-title">My Portfolio</h3>
+            <p class="card-text">Here you will find some work that I made for illustration photography</p>
+            <a href="#portfolio">Check it out</a>
+          <!-- </div> -->
 
-      </div>
-      <div class="col-sm-4">
-        <h3>My Portfolio</h3>
-        <p>Here you´ll find some work that I made for illustration photography</p>
-        <a href="#portfolio">Check it out</a>
-
-
-      </div>
-      <div class="col-sm-4">
-        <h3>Contact</h3>        
-        <p>Please contact me if you have any idea or project in mind we can work together, make something cool and money as well</p>
-        <a href="#contact">talk to me</a>
-
+        </div>
+        <div class="col-md-4">
+          <!-- <div class="card"> -->
+            <h3 class="card-title">Contact</h3>
+            <p class="card-text">Please contact me if you have any idea or project in mind we can work together, make
+              something cool and money as well</p>
+            <a href="#contact">talk to me</a>
+          <!-- </div>     -->
+        </div>
       </div>
     </div>
+  </div>
 
     <div class="about-me" id="about">
-      <h4>Hey it is Colomss</h4>
+      <h4>Hey I am Colomss</h4>
       <img src="images/picture-360_x_540.jpeg" alt="picture of me" class="img-fluid">
-      <p>Hey it is your designer and friend Colomss, I am from Colombia and my name is Santiago Suarez that is why "Coloms". I studied filmmaking but I have passion for every art, so basically I know photgraphy illustration, videography and animation. You will see some of my work.</p>
+      <p>Hey it is your designer and friend Colomss, I am from Colombia and my name is Santiago Suarez that is why
+        "Coloms". I studied filmmaking but I have passion for every art, so basically I know photgraphy illustration,
+        videography and animation. You will see some of my work.</p>
     </div>
     <div class="Portfolio" id="portfolio">
       <h2>illustration</h2>
-      <img src="images/llama avatar.png" alt="llama" class="img-fluid">
+      <img src="images/llama-avatar.png" alt="llama" class="img-fluid">
       <h2>photgraphy</h2>
       <h3>product</h3>
       <img src="images/P5210552-480_x_320.jpg" alt="blue" class="img-fluid">
@@ -63,40 +76,45 @@
     </div>
     <div class="contact" id="contact">
       <h3>get in touch</h3>
-      <h4>please shoot me an email so we can work together</h2>
+      <h4>please shoot me an email so we can work together</h4>
       <div class="container">
         <form action="/action_page.php">
           <label for="fname">First Name</label><br>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-      
+
+
           <br><label for="lname">Last Name</label><br>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
+
           <br><label for="subject">Subject</label><br>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br><br>
-      
+
           <input type="submit" value="Submit">
         </form>
       </div>
-      
+
     </div>
 
-    <!-- footer -->
+    
+    <!-- here goes the footer -->
     <footer>
       <div class="footer-content">
-          <h4>this is almost the end of the page but I hope to see you around</h4>
-          <p>check out our social media</p></div>
-          <ul class="icons">
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          </ul>
+        <h4>this is almost the end of the page but I hope to see you around</h4>
+        <p>check out our social media</p>
+      </div>
+      <div>  
+        <ul class="icons">
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        </ul>
       </div>
       <div class="footer-bottom">
-          <p>copyright &copy;2022 Portfolio Assingment.<span> Santiago Suárez Narváez 041026030</span></p>
+        <p>copyright &copy;2022 Portfolio Assingment.<span> Santiago Suárez Narváez 041026030</span></p>
       </div>
-  </footer>
-  
+   
+    </footer>
+
 </body>
+
 </html>
