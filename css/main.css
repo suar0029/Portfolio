@@ -25,6 +25,11 @@
 
 html{
     box-sizing: border-box;
+    font-family: var(--Font);
+}
+
+*{
+    font-family: var(--Font);
 }
 
 body{
@@ -34,6 +39,7 @@ body{
 
 .h1, h1{
     font-size: 100px;
+    font-weight: 100px;
     margin-bottom: 1rem;
     color: var(--maincolor);
 }
@@ -45,6 +51,7 @@ body{
 h2{
     color: var(--secondarycolor);
     text-align: center;
+    font-weight: 100px;
 }
  h3{
     color: var(--thirdcolor);
@@ -123,4 +130,34 @@ input[type=text], select {
     width: 100%;
   }
   
+.icons{
+    display: flex;
+    justify-content: center;
+}
 
+.icons li{
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+footer{
+    text-align: center;
+    background: var(--maincolor);
+    margin-top: 10px;
+    border: 2px solid var(--secondarycolor);
+    padding: 20px;
+}
+
+.footer-content p{
+    font-size: 20px;
+}
+
+img {
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+	transform: scale(0.8);
+}
