@@ -11,7 +11,7 @@
 
 .skip-link{
     position: absolute;
-    top: -40px;
+    top: -80px;
     left: 0;
     background: var(--thirdcolor);
     color: white;
@@ -35,6 +35,11 @@ html{
 body{
     margin: 0 auto; 
     background-color: var(--fifthcolor);
+}
+
+.wraper {
+    margin: auto;
+    max-width: 600px;
 }
 
 .h1, h1{
@@ -68,13 +73,22 @@ h2{
  }
 
  .about-me h4{
-    margin: 50px 0;
+    margin: 20px 0;
+    margin-bottom: 50px;
  }
 
 .banner{
     justify-content: center;
     height: 100px;
     background-color: black;
+}
+
+a {
+    color: var(--sixthcolor);
+}
+
+.btn {
+    margin: 50px 0;
 }
 
 a:link {
@@ -85,12 +99,27 @@ a:link {
     border-radius: 50px;
     text-decoration: none;
     margin: 15px;
+   
 }
+
+.container {
+    justify-content: space-between;
+    padding: 1rem;
+    display: flex;
+
+}
+
+.col-md-4 a {
+    margin-bottom: 50px;
+}
+
 
 a:hover{
     background-color: var(--maincolor);
     border-color: var(--secondarycolor);
+    
 }
+
 
 .row{
     margin-top: 50px;
@@ -117,6 +146,10 @@ input[type=text], select {
     margin-left: 500px;
   }
 
+  .text-us {
+    margin: auto;
+  }
+
   input[type=submit]:hover {
     background-color: var(--thirdcolor);
   }
@@ -133,31 +166,68 @@ input[type=text], select {
 .icons{
     display: flex;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icons li{
     list-style-type: none;
     margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: space-between;
     
 }
 
 footer{
     text-align: center;
     background: var(--maincolor);
-    margin-top: 10px;
+    margin-top: 50px;
     border: 2px solid var(--secondarycolor);
     padding: 20px;
 }
 
 .footer-content p{
     font-size: 20px;
+    
 }
 
 img {
 	transform: scale(1);
 	transition: .3s ease-in-out;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    filter: drop-shadow(5px 15px 20px #AA3713);
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 600px;
 }
 
 img:hover {
 	transform: scale(0.8);
 }
+
+.about-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    filter: drop-shadow(5px 15px 20px #AA3713);
+}
+
+@media screen and (min-width:600px) {
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    
+}
+
+.wraper {
+    margin: auto;
+    max-width: 1200px;
+}
+
